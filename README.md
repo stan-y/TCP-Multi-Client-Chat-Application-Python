@@ -1,25 +1,27 @@
-# PROJECTNAME
+# TCP MULTI-CLIEN-CHAT-APPLICATION | PYTHON
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+To create a secure and scalable TCP-based multi-client chat application that enables real-time messaging between authenticated users, demonstrating core networking concepts like socket programming, threading, authentication, and broadcast communication in Python.
+
+Key Features
+- User Authentication: Requires username/password login with stored credentials
+- Concurrent Connections: Handles multiple clients simultaneously using threading
+- Broadcast Messaging: Sends messages from one client to all others
+- Connection Management: Tracks online users and cleans up disconnected clients
+- Basic Security: Uses thread locks to protect shared resources
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Network programming fundamentals
+- Thread synchronization
+- Client-server interactions
+- Basic chat application architecture
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
-
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Python 
+- Wireshark for capturing and examining network traffic.
+- Virtual Environment (venv) (For dependency isolation)
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
